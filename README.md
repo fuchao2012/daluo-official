@@ -1,28 +1,68 @@
-# Official
+## 大罗 xx 项目
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
+项目是外包项目，需要一套代码支持三个网站展示。
 
-## Development server
+### 数据结构
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+三个网站分别是
 
-## Code scaffolding
+* 大罗融资， 部署到 www.daluofinance.com
+* 大罗经纪， 部署到 www.daluobroker.com
+* 大罗科技， 部署到 www.daluotech.com
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+三个网站的区别在于
 
-## Build
+1. title 
+2. Logo
+3. 二维码
+4. 详情页中有一个名字也不一样
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+于是有数据结构
 
-## Running unit tests
+```
+// 使用如此长的名字是为了跟 router.url
+site = {
+    daluofinance:{
+        name: '融资',
+        logo: 'path/to/logo.png',
+        qr: 'path/to/qr.png'
+    },
+    daluobroker:{
+        name: '经纪',
+        logo: 'path/to/logo.png',
+        qr: 'path/to/qr.png'
+    },
+    daluotech:{
+        name: '科技',
+        logo: 'path/to/logo.png',
+        qr: 'path/to/qr.png'
+    }
+}
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 页面结构
 
-## Running end-to-end tests
+内容页面有六个
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+* 首页 home
+* 气象风险 weather
+* 解决方案 solution
+* 强强联合 union
+* 产品列表 product
+* 联系我们 connect
 
-## Further help
+功能页面有五个，由于是五个 modal 窗口，所以无需页面支持， 在 nav 中实现即可
+ 
+* 扫我扫我 scan()
+* 关于我们 about()
+* 常见问题 faq()
+* 在线咨询 online()
+* 投诉建议 service()
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### 导航栏
+
+hover 状态展开，默认状态关闭，只显示 icon。所以宽度是固定到icon 宽度。
+
+### 首页
+
+首页为三个 icon + 
