@@ -1,3 +1,33 @@
+# Official
+
+这个项目使用 [Angular CLI](https://github.com/angular/angular-cli) 1.0.0 版本生产.
+
+### 开发服务
+
+执行 `ng serve` 开启测试服务器，打开浏览器 `http://localhost:4200/`，应用会自动刷新修改。
+
+### 代码块生成器
+
+执行 `ng generate component component-name` 来生成新的组件，当然也可以用来生成其他的代码块 `ng generate directive/pipe/service/class/module`.
+
+### 编译
+
+执行 `ng build` 来编译项目，目标代码会自动生成到 `dist/` 目录. 使用 `-prod` 参数标识生成生产代码，这会打开 aoT 编译。
+
+### 执行单元测试
+
+执行 `ng test` 来启动 [Karma](https://karma-runner.github.io) 编写的单元测试代码。
+
+### 执行端到端测试
+
+执行 `ng e2e` 来启动 [Protractor](http://www.protractortest.org/) 编写的端到端测试，启动之前，需要确保开启了开发服务器。
+
+### 更多帮助
+
+执行 `ng help` 查看帮助文档，或者去网页查看 [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+---
+
 ## 大罗 xx 项目
 
 项目是外包项目，需要一套代码支持三个网站展示。
