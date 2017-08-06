@@ -79,7 +79,7 @@ site = {
 * 解决方案 solution
 * 强强联合 union
 * 产品列表 product
-* 联系我们 connect()
+* 联系我们 connect
 
 功能页面有五个，由于是五个 modal 窗口，所以无需页面支持， 在 nav 中实现即可
  
@@ -87,7 +87,7 @@ site = {
 * 关于我们 about()
 * 常见问题 faq()
 * 在线咨询 online()
-* 投诉建议 service()
+* 投诉建议 advice()
 
 ### 导航栏
 

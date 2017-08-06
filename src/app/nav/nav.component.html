@@ -1,19 +1,18 @@
 <div class="col-sm-3 col-md-2 sidebar">
     <ul class="nav nav-sidebar">
-        <li><a routerLink="/home">Home 1</a></li>
-        <li><a routerLink="/home">Home 2</a></li>
-        <li><a routerLink="/home">Home 3</a></li>
+        <li><a routerLink="/home"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-shouyeshouye"></use></svg> 首页</a></li>
+        <li><a routerLink="/weather"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wenti"></use></svg> 气象风险</a></li>
+        <li><a routerLink="/solution"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-jiejuefangan"></use></svg> 解决方案</a></li>
+        <li><a routerLink="/union"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hezuo-copy"></use></svg> 强强联合</a></li>
+        <li><a routerLink="/product"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-chanpin"></use></svg> 产品列表</a></li>
+        <li><a routerLink="/connect"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-lianxiwomen"></use></svg> 联系我们</a></li>
     </ul>
-    <ul class="nav nav-sidebar">
-        <li><a href="">Nav item</a></li>
-        <li><a href="">Nav item again</a></li>
-        <li><a href="">One more nav</a></li>
-        <li><a href="">Another nav item</a></li>
-        <li><a href="">More navigation</a></li>
-    </ul>
-    <ul class="nav nav-sidebar">
-        <li><a href="">Nav item again</a></li>
-        <li><a href="">One more nav</a></li>
-        <li><a href="">Another nav item</a></li>
+    <ul class="nav nav-sidebar margin-t-10e">
+        <!-- todo: 添加模态框或者 popover 组件完成点击展示 -->
+        <li><a (click)="scan()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-saoma"></use></svg> 扫我扫我</a></li>
+        <li><a (click)="about()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-guanyuwomen"></use></svg> 关于我们</a></li>
+        <li><a (click)="faq()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wenhao"></use></svg> 常见问题</a></li>
+        <li><a href="http://wpa.qq.com/msgrd?v=3&uin=3342908618&site=qq&menu=yes"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-QQ"></use></svg> 在线咨询</a></li>
+        <li><a (click)="advice()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-2"></use></svg> 投诉建议</a></li>
     </ul>
 </div>

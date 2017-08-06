@@ -11,5 +11,16 @@ export class NavComponent implements OnInit {
 
   ngOnInit() {
   }
+  scan() {
+    
+  }
+  about() {
 
+  }
+  faq() {
+
+  }
+  advice() {
+
+  }
 }

@@ -1,4 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~bootstrap/dist/css/bootstrap.min.css";
-@import "~font-awesome/css/font-awesome.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+/* Icon Font Symbol class from 
+ * http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.d8cf4382a.6a67b64foYIpEX&helptype=code
+ */
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.4em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+a {
+    color: #A6AAA9 !important;
+}
+
+
+/* Common tools*/
+
+.margin-t-10e {
+    margin-top: 10em;
+}
