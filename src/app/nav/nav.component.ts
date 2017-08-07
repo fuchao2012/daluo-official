@@ -3,7 +3,21 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  styles: [`
+    .sidebar-top{
+        position:absolute;
+        top: 0;
+    }
+    .sidebar-bottom{
+        position:absolute;
+        bottom: 0;
+    }
+    .logo-expand{
+      display:inline;
+      color:#FF2019;
+      font-size:2em
+    }
+  `]
 })
 export class NavComponent implements OnInit {
 
@@ -12,7 +26,7 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
   scan() {
-    
+
   }
   about() {
 

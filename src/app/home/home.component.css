@@ -1,0 +1,44 @@
+.main {
+    background-color: #E7F0FE;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-huojian {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.slogan h1 {
+    font-size: 4.2em;
+    font-weight: 400;
+}
+
+.slogan h2 {
+    font-size: 3.8em;
+    font-weight: 400;
+}
+
+.buttons {
+    margin-top: 1em;
+}
+
+.buttons .home-button {
+    background-color: #FFC03F;
+    border-color: #FFC03F;
+}

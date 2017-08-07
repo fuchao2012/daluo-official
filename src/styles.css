@@ -15,7 +15,24 @@
     overflow: hidden;
 }
 
-a {
+
+/*App use style*/
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-right: 1px solid #eee;
+}
+
+.sidebar a {
     color: #A6AAA9 !important;
 }
 
@@ -24,4 +41,8 @@ a {
 
 .margin-t-10e {
     margin-top: 10em;
+}
+
+.p0 {
+    padding: 0;
 }
