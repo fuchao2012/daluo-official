@@ -13,10 +13,8 @@
     vertical-align: -0.4em;
     fill: currentColor;
     overflow: hidden;
+    margin-right: 10px;
 }
-
-
-/*App use style*/
 
 .sidebar {
     position: fixed;
@@ -25,11 +23,18 @@
     left: 0;
     z-index: 1000;
     display: block;
-    padding: 20px;
+    padding: 10px;
     overflow-x: hidden;
     overflow-y: auto;
+    width: 60px;
+    white-space: nowrap;
     background-color: #ffffff;
     border-right: 1px solid #eee;
+}
+
+.sidebar:hover {
+    width: 16.7777% !important;
+    overflow: hidden;
 }
 
 .sidebar a {

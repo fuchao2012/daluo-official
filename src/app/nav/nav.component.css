@@ -1,0 +1,15 @@
+.sidebar-top {
+    position: absolute;
+    top: 0;
+}
+
+.sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.logo-expand {
+    display: inline;
+    color: #FF2019;
+    font-size: 2em;
+}
