@@ -1,0 +1,14 @@
+.img-container {
+    position: relative;
+}
+
+.img-backup {
+    position: absolute;
+    bottom: 123px;
+    right: 100px;
+}
+
+.img-backup img {
+    width: 100px;
+    height: 20px;
+}

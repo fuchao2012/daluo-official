@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UnionComponent implements OnInit {
 
+  name: string;
   constructor() { }
 
   ngOnInit() {
+    // todo get the right name
+    this.name = window.location.host.split('.')[1] || 'tech';
   }
 
 }
