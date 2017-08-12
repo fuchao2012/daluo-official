@@ -45,3 +45,23 @@
     background-color: #FFC03F;
     border-color: #FFC03F;
 }
+
+.index-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-top: 1em;
+    background-color: rgba(10, 10, 10, .5);
+    color: #EEE;
+}
+
+.index-bottom h4 {
+    color: orange;
+}
+
+.index-bottom .icon-logo6,
+.index-bottom .icon-clac,
+.index-bottom .icon-icon {
+    font-size: 2em;
+    color: white;
+}

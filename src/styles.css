@@ -55,11 +55,13 @@
 
 .sidebar:hover {
     width: 16.7777% !important;
-    overflow: hidden;
+    overflow: auto;
+    min-width: 200px;
 }
 
 .sidebar a {
     color: #A6AAA9 !important;
+    cursor: pointer;
 }
 
 

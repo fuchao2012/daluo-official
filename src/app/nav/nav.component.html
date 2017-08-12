@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div>
     <ul class="nav nav-sidebar sidebar-top">
         <li>
             <a routerLink="/home">
@@ -15,9 +15,12 @@
     </ul>
     <ul class="nav nav-sidebar sidebar-bottom">
         <li><a (click)="scan()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-saoma"></use></svg> 扫我扫我</a></li>
-        <li><a (click)="about()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-guanyuwomen"></use></svg> 关于我们</a></li>
-        <li><a (click)="faq()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wenhao"></use></svg> 常见问题</a></li>
+        <li><a routerLink="/about"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-guanyuwomen"></use></svg> 关于我们</a></li>
+        <li><a routerLink="/about"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wenhao"></use></svg> 常见问题</a></li>
         <li><a href="http://wpa.qq.com/msgrd?v=3&uin=3342908618&site=qq&menu=yes"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-QQ"></use></svg> 在线咨询</a></li>
-        <li><a (click)="advice()"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-2"></use></svg> 投诉建议</a></li>
+        <li><a routerLink="/about"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-2"></use></svg> 投诉建议</a></li>
+    </ul>
+    <ul class="nav nav-sidebar sidebar-scan" *ngIf="isScan" (click)="scan()">
+        <li><img src="../assets/images/{{name}}/qr.png" alt="qrcode"></li>
     </ul>
 </div>

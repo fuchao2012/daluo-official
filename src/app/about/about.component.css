@@ -1,0 +1,7 @@
+.bottom-copy {
+    flex-order: 2;
+}
+
+.bottom-intro {
+    flex-order: 3;
+}

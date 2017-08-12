@@ -5,11 +5,22 @@
 
 .sidebar-bottom {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
 }
 
 .logo-expand {
     display: inline;
     color: #FF2019;
     font-size: 2em;
+}
+
+.sidebar-scan {
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+}
+
+.sidebar-scan img {
+    width: 200px;
+    height: 200px;
 }

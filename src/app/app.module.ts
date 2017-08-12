@@ -11,6 +11,7 @@ import { UnionComponent } from './union/union.component';
 import { ProductComponent } from './product/product.component';
 import { ConnectComponent } from './connect/connect.component';
 import { FootComponent } from './foot/foot.component';
+import { AboutComponent } from './about/about.component';
 
 const router = [
   {
@@ -32,6 +33,9 @@ const router = [
     path: 'connect',
     component: ConnectComponent
   }, {
+    path: 'about',
+    component: AboutComponent
+  }, {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -48,7 +52,8 @@ const router = [
     UnionComponent,
     ProductComponent,
     ConnectComponent,
-    FootComponent
+    FootComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(router)
