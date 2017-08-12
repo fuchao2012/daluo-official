@@ -7,6 +7,13 @@
  * http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.d8cf4382a.6a67b64foYIpEX&helptype=code
  */
 
+* {
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
 .icon {
     width: 1.5em;
     height: 1.5em;
@@ -14,6 +21,20 @@
     fill: currentColor;
     overflow: hidden;
     margin-right: 10px;
+}
+
+.main {
+    background-color: #E7F0FE;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .sidebar {

@@ -1,0 +1,39 @@
+.custom-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.custom-indicators li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #E3E3E3;
+    color: #C3C3C3;
+    border-radius: 100%;
+    line-height: 60px;
+    text-align: center;
+    text-indent: 0;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 5px 2px #c5c4c4;
+}
+
+.custom-indicators li.active,
+.custom-indicators li:hover {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #0099F5;
+    border: 1px solid #E3E3E3;
+    color: #fff;
+    font-size: 1.4em;
+}
